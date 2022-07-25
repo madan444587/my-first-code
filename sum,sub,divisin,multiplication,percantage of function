@@ -1,0 +1,63 @@
+#include<iostream>
+using namespace std;
+
+void sum()
+{
+	int a,b;
+	cout<<"enter number for sum";
+	cin>>a>>b;
+	
+	cout<<a+b;
+	
+}
+
+void sub()
+ 
+{
+	int a,b;
+		cout<<"enter number for sub";
+	cin>>a>>b;
+	
+	cout<<a-b;
+	
+}
+
+void multiplication()
+
+{
+int a,b;
+	cout<<"enter number for multiplication";
+		cin>>a>>b;
+
+cout<<a*b;
+		
+	}
+	
+	void division()
+
+{
+int a,b;
+	cout<<"enter number for division";
+		cin>>a>>b;
+
+cout<<a/b;
+		
+	}
+	void percantage()
+ 
+{
+	int a,b;
+		cout<<"enter number for percantage";
+	cin>>a>>b;
+	
+	cout<<a%b;
+}
+	main()
+{
+	sum();
+	sub();
+	multiplication();
+	division();
+	percantage();
+	
+}
