@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+void displaynum(int num1, float num2)
+ {
+	cout<<"the int number is"<<num1;
+	cout<<"the double nnumber is"<<num2;
+	
+	cout<<num1+num2<<endl;
+	
+	
+	
+}
+  int main()
+		{
+			int num1=5;
+			float num2=10.5;
+				displaynum(num1,num2);
+				
+			return 0;
+		
+		}
