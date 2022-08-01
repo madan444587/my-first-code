@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+
+void positivenum()
+
+{
+	
+	int a;
+	
+	cout<<"Enter a positive num "<<endl;
+	
+	
+	cin>>a;
+if (a%2==0)
+
+
+{
+	cout<<"This is Even num "<<a<<endl;
+	
+	} 
+	else {
+		cout<<"This is odd num "<<a<<endl;
+	}	
+	
+	}
+main()
+{
+positivenum();	
+}
