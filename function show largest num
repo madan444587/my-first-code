@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+
+void largestnum()
+
+{
+	
+	int a,b,c;
+	
+	cout<<"enter first num"<<endl;
+	
+	cin>>a;
+	
+	cout<<"enter second num"<<endl;
+	cin>>b;
+	cout<<"enter third num"<<endl;
+	cin>>c;
+	
+	if (a>b&&a>c)
+	{
+		cout<<"this is largest"<<a<<endl;
+	
+		
+	}
+	 else if  (b>a&&b>c){
+		cout<<"this is largest"<<b<<endl;
+	}
+	
+	else {
+		cout<<"this is largest"<<c<<endl;
+	}
+		
+}
+
+main()
+{
+	largestnum();
+	
+}
